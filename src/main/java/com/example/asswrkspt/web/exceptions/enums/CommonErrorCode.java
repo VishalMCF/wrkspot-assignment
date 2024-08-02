@@ -5,7 +5,8 @@ import com.example.asswrkspt.web.exceptions.ErrorType;
 
 public enum CommonErrorCode implements ErrorCode {
     TIMEOUT_ERROR("timeout_error", CommonErrorType.FATAL),
-    GENERIC_ERROR("generic_error", CommonErrorType.FATAL);
+    GENERIC_ERROR("generic_error", CommonErrorType.FATAL),
+    CREATE_ENTITY_ERROR("create_entity_error", CommonErrorType.FATAL);
 
     private final String code;
     private final CommonErrorType errorType;
